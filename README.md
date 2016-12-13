@@ -10,4 +10,4 @@ Parte del archivo básico de las cabecesras es obra de [Marta](https://github.co
 
 Para compilar las cabeceras debes usar el siguiente comando:
 
-<pdflatex -shell-escape <nombre del archivo> >
+`pdflatex -shell-escape <nombre del archivo>`

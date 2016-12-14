@@ -28,4 +28,4 @@ Documento en horizontal que permite hacer resúmenes o chuletas de fórmulas par
 
 ## Más cabeceras guays
 
-En este [latextemplates](http://www.latextemplates.com/) podrás encontrar cabeceras de todo tipo y muy originales para tus documentos LaTeX. Destacamos la cabecera para `book` [thelegrandorangebook](http://www.latextemplates.com/template/the-legrand-orange-book) que nos permite hacer documentos coloridos y originales.
+En [latextemplates](http://www.latextemplates.com/) podrás encontrar cabeceras de todo tipo y muy originales para tus documentos LaTeX. Destacamos la cabecera para `book` [thelegrandorangebook](http://www.latextemplates.com/template/the-legrand-orange-book) que nos permite hacer documentos coloridos y originales.

@@ -1,0 +1,87 @@
+\documentclass[10pt,spanish, landscape, twocolumn]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsthm}
+\usepackage{amsfonts, amssymb, latexsym}
+\usepackage{enumerate}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{colortbl}
+\usepackage[landscape]{geometry} % puedes modificar los márgenes con este paquete
+\usepackage{minted}
+
+\usepackage[bookmarks=true,
+            bookmarksnumbered=false, % true means bookmarks in
+                                     % left window are numbered
+            bookmarksopen=false,     % true means only level 1
+                                     % are displayed.
+            colorlinks=true,
+            linkcolor=webblue]{hyperref}
+\definecolor{webgreen}{rgb}{0, 0.5, 0} % less intense green
+\definecolor{webblue}{rgb}{0, 0, 0.5}  % less intense blue
+\definecolor{webred}{rgb}{0.5, 0, 0}   % less intense red
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+%Definimos autor y título
+\title{Los comandos \LaTeX\ que más uso y de los que nunca me acuerdo} 
+\author{Marta Gómez}
+
+\begin{document}
+\maketitle % si queréis más espacio en la primera página eliminad esta línea.
+
+\section{Matemáticos}
+
+\begin{minted}[frame=single, label={overbrace y underbrace}]{latex}
+\begin{displaymath}
+    \underbrace{\overbrace{a+b+c}^6 \cdot 
+    \overbrace{d+e+f}^9}
+    _\text{meaning of life} = 42
+\end{displaymath}
+\end{minted}
+
+\begin{displaymath}
+    \underbrace{\overbrace{a+b+c}^6 \cdot \overbrace{d+e+f}^9}_\text{meaning of life} = 42
+\end{displaymath}
+
+\begin{minted}[frame=single, label={binom}]{latex}
+    \begin{displaymath}
+        \binom{n}{k} = \binom{n-1}{k} + 
+                       \binom{n-1}{k-1}
+    \end{displaymath}
+\end{minted}
+
+\begin{displaymath}
+    \binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1}
+\end{displaymath}
+\\
+
+\begin{minted}[frame=single, label={math\_fonts}]{latex}
+    \begin{displaymath}
+        \mathcal{R} \qquad \mathfrak{R} \qquad 
+        \mathbb{R}
+    \end{displaymath}
+\end{minted}
+
+\begin{displaymath}
+    \mathcal{R} \qquad \mathfrak{R} \qquad \mathbb{R}
+\end{displaymath}
+
+\begin{minted}[frame=single, label={bigs}]{latex}
+    \begin{displaymath}
+        \big( \Big( \bigg( \Bigg( \qquad\
+        \big{ \Big{ \bigg{ \Bigg{ \qquad\
+        \big\Downarrow \Big\Downarrow 
+            \bigg\Downarrow \Bigg\Downarrow
+    \end{displaymath}
+\end{minted}
+
+\begin{displaymath}
+    \big( \Big( \bigg( \Bigg( \qquad\
+    \big\{ \Big\{ \bigg\{ \Bigg\{ \qquad\
+    \big\Downarrow \Big\Downarrow 
+        \bigg\Downarrow \Bigg\Downarrow
+\end{displaymath}
+
+\end{document}

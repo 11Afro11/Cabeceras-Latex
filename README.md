@@ -18,7 +18,7 @@ Para compilar las cabeceras debes usar el siguiente comando:
 
 Documento que permite insertar bibliografía usando el comando de LaTeX `thebibliography`. Además, inserta una foto de fondo.
 
-![CabeceraBibliografia](portada_cabecerabibliografia.png)
+![CabeceraBibliografia](portada_cabecerabibliografica.png)
 
 ### Cabecera Resumen
 
